@@ -1,8 +1,11 @@
 package org.example.library;
 
+import org.example.model.User;
+
 public class Main {
     public static void main(String[] args) {
-        String TestCheckstyle = "test";
-        System.out.println(TestCheckstyle);
+        User user = new User(14, "login", "password", "name");
+        String testCheckstyle = "test";
+        System.out.println(testCheckstyle);
     }
 }
